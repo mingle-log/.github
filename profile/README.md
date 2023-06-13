@@ -65,7 +65,12 @@
 <br>
 
 # 🐬 About Team Mingler
-(팀 소개)
+|  | 산출물관리 | 형상관리 | DB관리 |  |
+|:---------:|:--------:|:----------:|:--------:|:----------:|
+| <img src="https://github.com/mingle-log/.github/assets/109155268/3b1e876e-5950-4277-a86f-783541c1a815" alt="현재" width="140"> | <img src="https://github.com/mingle-log/.github/assets/109155268/ae146e11-f556-4bee-828f-1931f04b505a" alt="다현" width="140"> | <img src="https://github.com/mingle-log/.github/assets/109155268/8473c148-c554-43a7-8728-494ea5007935" alt="효연" width="140"> | <img src="https://github.com/mingle-log/.github/assets/109155268/610e191e-4688-46a7-a803-0a13da7d0745" alt="진호" width="140"> | <img src="https://github.com/mingle-log/.github/assets/109155268/fac0a719-5664-4380-bbbb-dc4c1f58fa3a" alt="지원" width="140"> |
+| **이현재** | **여다현** | **조효연** | **이진호** | **최지원** |
+| 담당기능 | 담당기능 | 담당기능 | 담당기능 | 담당기능 |
+| 링크 | 링크 | 링크 | 링크 | 링크 |
 
 <br>
 
@@ -73,12 +78,24 @@
 > [로그인](#로그인) <br>
 > [마이페이지](#마이페이지) <br>
 > [출퇴근 기록](#출퇴근-기록) <br>
+> [일정관리](#일정관리) <br>
+> [쪽지](#쪽지) <br>
+> [실시간 알림](#실시간-알림) <br>
+> [공지 게시판](#공지-게시판) <br>
+> [조직도](#조직도) <br>
+> [학사관리](#학사관리) <br>
+> [휴가신청서](#휴가신청서) <br>
+> [증명서](#증명서) <br>
+> [근태관리](#근태관리) <br>
+> [과목관리](#과목관리) <br>
+> [강의관리](#강의관리) <br>
+> [출결관리](#출결관리) <br>
 
 ### 🔻로그인
 ```
-javax.mail-api 활용
-spring-boot-starter-mail 활용
-freemarker 활용
+✔ javax.mail-api 활용
+✔ spring-boot-starter-mail 활용
+✔ freemarker 활용
 ```
 > 로그인
 - 아이디와 비밀번호를 비교하고 확인한 후, 그 데이터에 맞는 권한을 부여한 accessToken을 발급
@@ -153,7 +170,7 @@ public void mailSend(MailDTO mailDTO) {
 ```
 > 비밀번호 변경
 - 유효성 검사 및 새 비밀번호 일치 시 비밀번호 변경 가능
-### 마이페이지
+### 🔻마이페이지
 > 마이페이지 조회
 - 로그인 한 유저 자신의 정보를 조회 가능
 > 마이페이지 수정
